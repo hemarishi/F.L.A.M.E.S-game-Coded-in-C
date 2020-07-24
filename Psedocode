@@ -1,0 +1,30 @@
+ 1_Start
+ 
+ 2_Get names name1 and name2 as user inputs
+ 
+ 3_Find length of names using length() FUNCTION
+ 4_Say l1 <-- length(name1) 
+ 5_Say l2 <-- length(name2)
+ 6_IF l1 > l2
+    SWAP name1 and name2
+    
+ 7_Start flames logic #1
+ 8_Check for similar characters in both name1 and name2
+ 9_Store similar characters count in a variable say count
+ 10_DO  count=(l1-count)+(l2-count)
+ 
+ 11_Start flames logic #2
+ 12_INITIALIZE flame_array={0,1,2,3,4,5}
+ 13_flame_array[0]=F
+ 14_flame_array[1]=L
+ 15_flame_array[2]=A
+ 16_flame_array[3]=M
+ 17_flame_array[4]=E
+ 18_flame_array[5]=s
+ 19_DO count % 6
+ 20_WHILE flame_array[0] != 0
+      Strike through count index of FLAMES
+  
+ 21_DISPLAY flame_array[0]
+ 
+ 22_End
