@@ -9,4 +9,4 @@ FLAMES stands for:
 ■ Enemy;
 ■ Siblings.
 The F.L.A.M.E.S game is actually a compatibility analysis that reveals to what extent the relationship between two persons can go, defining that into 6 simple words.
-The algorithm is simply striking through letters
+The algorithm is simply striking through letters.
